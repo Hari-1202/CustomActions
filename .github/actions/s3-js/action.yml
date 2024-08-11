@@ -10,6 +10,9 @@ inputs:
     description: file
     required: true
     default: dist
+outputs:
+  website-url:
+    description: website-url
 runs:
   using: node16
   main: main.js
