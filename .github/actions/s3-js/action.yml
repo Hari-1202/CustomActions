@@ -1,4 +1,15 @@
 name: 'Deploy to s3'
+inputs:
+  bucketName:
+    description: bucketName
+    required: true
+  bucketRegion:
+    description: bucketRegion
+    required: true
+  file:
+    description: file
+    required: true
+    default: dist
 runs:
   using: node16
   main: main.js
