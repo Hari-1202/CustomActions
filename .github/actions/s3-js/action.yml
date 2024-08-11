@@ -2,4 +2,3 @@ name: 'Deploy to s3'
 runs:
   using: node16
   main: main.js
-  
